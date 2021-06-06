@@ -1,0 +1,236 @@
+*{
+    scroll-behavior: smooth;
+    
+}
+/* for logo  */
+#logo{
+    z-index: 1;
+}
+/* for navigation bar  */
+#navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left:0;
+    margin-bottom: auto;
+    z-index: 9999;
+    box-shadow: 25px;
+
+}
+#navbar::before{
+   content: "";
+   background-color: rgb(0, 0, 0);
+   position: absolute;
+   width: 1266px;
+   height: 60px;
+   z-index: -1;
+   opacity: 0.4;
+}
+ul{
+    display: flex;
+    
+    }
+.item{
+    list-style: none;
+    /* font-weight: bold; */
+    font-size: 1.0rem;
+    
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 2px 1px;
+margin: 2px 4px 2px 3px;
+    font-size: 18px;
+
+}
+.item a:hover{
+  border-radius: 23px;
+  color: black;
+  background-color: white;
+}
+/* body{
+    background-image: url(pic7.jpg.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+/* home section */
+#home{
+    /* display: flex;
+    flex-direction: row-reverse; */
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 20px;
+    height: 560px;
+    
+}
+#home::before{
+    content: "";
+    background:url('pexels-plato-terentev-5909876.jpg') no-repeat center center/cover ;
+   
+    position: absolute;
+    /* width: 1270px;
+    height: 160px; */
+    z-index: -1;
+    opacity: 0.87;
+    width: 100%;
+    height: 630px;
+}
+header{
+    margin-bottom: 20px;
+}
+.everyh1{
+    font-size: 3.2rem;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* .everyh1 center{
+color: olive;
+margin-top: 10px;
+} */
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Roboto';
+}
+#bttn{
+    text-decoration: none;
+    margin-left: 545px;
+    margin-top: -3px;
+    border-radius: 10px;
+    padding: 2px;
+    height: 29px;
+    width: 69px;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 1;
+    color: white;
+    border:2px solid white;
+    background-color: rgb(145, 8, 8);
+}
+#bttn a{
+    text-decoration: none;
+    color: white;
+}
+#bttn:hover{
+    
+    cursor: pointer;
+}
+#bttn a:hover{
+    color:rgb(134, 111, 112);
+
+    cursor: pointer;
+}
+#but{
+    display: inline block;
+}
+.btn{
+    font-size: 1.4rem;
+    padding: 6px 19px;
+    background-color: brown;
+    border: 2px solid white;
+    color: white;
+    margin: 17px;
+    border-radius: 12px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(219, 217, 217);
+    color: rgb(102, 8, 8);
+}
+
+
+/* .services-conatainer{
+margin-top: 6px;
+display: flex;
+background-color:rgb(119, 14, 14) ;
+
+} */
+.everyh2{
+    font-size: 2.2rem;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(145, 8, 8);
+
+}
+.center{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -25px;
+    color: rgb(145, 8, 8);
+    background-color:#c4c4c4;
+}
+.centers {
+    text-align: center;
+    margin-top: -30px;
+    
+    font-size: 2.8rem;
+    color: rgb(179, 20, 20);
+    font-family: 'Roboto';
+    padding: 20px 30px;
+}
+#services .box{
+    border: 3px solid brown;
+    /* padding: 2px; */
+    font-family:' Roboto' ;
+     margin-left: 20px;
+     margin-right: 28px;
+     /* margin-left: 28px; */
+     /* margin-top: 40px; */
+     border-radius: 140px;
+     background-color: rgb(255, 255, 255) ;
+     box-shadow: 4px 6px 12px 6px rgb(114, 114, 114);
+     height: 180px;
+     width: 380px;
+}
+#services{
+    /* margin: 30px 300px; */
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display:flex;
+    flex-direction: row;
+   
+}
+
+#services .box img{
+    height: 100px;
+    width: 100px;
+    display: block;
+margin-top: 40px;
+/* margin-left: 180px; */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    border: 2px solid maroon;
+    
+}
+
+header{
+    margin-bottom: 80px;
+}
+
+
+
+footer{
+    background-color: #c4c4c4;
+    color: maroon;
+    height: 50px;
+    justify-content: center;
+    padding: 15px 20px;
+}
+.foot{
+    background-color:#c4c4c4;
+    text-align: center;
+    justify-content: center;
+}
